@@ -45,6 +45,54 @@
                     
         </div>
         <!--video text ends-->
+
+        <!--Slideshow started-->
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/self.jpg" alt="Picture of yourself">
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+                    <!-- Slide 2 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/html-css-js.jpg" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+                    <!-- Slide 3 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/python.jpg" alt="Python logo">
+                        <div class="text">the popular programming language Python,</div>
+                    </div>
+                    
+                    <!-- Slide 4 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/sql.jpg" alt="SQL logo"> 
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                    <!-- Slide 5 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/laptop.jpg" alt="Work Table"> 
+                        <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Contact me now!</a></div> 
+                    </div>
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                     
+                </div>
+            </div>
+        </div>
         
 
         <!--about starts-->
@@ -111,5 +159,7 @@
                 &copy;Swarnali&nbsp;|&nbsp;2021
             </strong>
         </footer>
+
+        <script src="JS/main.js"></script>
     </body>
 </html>> 
